@@ -1,0 +1,40 @@
+.container1::before, .container2::before, .container3::before, .container4::before, .container5::before, .container6::before, .container7::before, .container8::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+.container1:hover::before,.container2:hover::before, .container3:hover::before, .container4:hover::before, .container5:hover::before, .container6:hover::before, .container7:hover::before, .container8:hover::before {
+    opacity: 0.5; 
+}
+.container1::before{
+    background-image: url('../../assets/desktop/image-deep-earth.jpg');
+}
+.container2::before{
+    background-image: url('../../assets/desktop/image-night-arcade.jpg');
+}
+.container3::before{
+    background-image: url('../../assets/desktop/image-soccer-team.jpg');
+}
+.container4::before{
+    background-image: url('../../assets/desktop/image-grid.jpg');
+}
+.container5::before{
+    background-image: url('../../assets/desktop/image-from-above.jpg');
+}
+.container6::before{
+    background-image: url('../../assets/desktop/image-pocket-borealis.jpg');
+}
+.container7::before{
+    background-image: url('../../assets/desktop/image-curiosity.jpg');
+}
+.container8::before{
+    background-image: url('../../assets/desktop/image-fisheye.jpg');
+}
